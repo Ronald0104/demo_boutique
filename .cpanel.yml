@@ -1,0 +1,9 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home2/phmigxhu/public_html/demo_boutique/
+  - /bin/cp -r application $DEPLOYPATH
+  - /bin/cp -r assets $DEPLOYPATH
+  - /bin/cp -r system $DEPLOYPATH
+  - /bin/cp .htaccess $DEPLOYPATH
+  - /bin/cp index.php $DEPLOYPATH

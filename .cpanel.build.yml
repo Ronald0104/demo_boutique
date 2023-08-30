@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+  - export DEPLOYPATH=/home2/phmigxhu/public_html/demo_system/
+  - /bin/cp -r application/controllers/* $DEPLOYPATH/application/controllers
+  - /bin/cp -r application/models/* $DEPLOYPATH/application/models
+  - /bin/cp -r application/views/* $DEPLOYPATH/application/views
+  - /bin/cp -r assets/js/* $DEPLOYPATH/assets/js
